@@ -21,7 +21,7 @@ var estilos = function(){
 		this.setAttribute("class", "error");
 		return false;
 	}
-	else if(numLength>4){
+	else if(numLength>5){
 		this.setAttribute("class", "error");
 		return false;
 	}
@@ -66,7 +66,6 @@ var valForm2 = function(e){
 var validar = function(e){
 	valForm1(e);
 	valForm2(e);
-	alert("hola");
 	
 }
 submit.addEventListener("click",validar);

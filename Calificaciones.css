@@ -17,6 +17,7 @@ body
 }
 .padre
 {
+	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	background: #edd07b;
@@ -135,7 +136,6 @@ body
 	display: flex;
 	justify-content: center;
 	border-radius: 5px;
-	line-height: 50px;
 
 }
 .submit
@@ -151,13 +151,31 @@ body
 	transition: background linear 10s;
 	transition: height ease-in-out 1s;
 	cursor: pointer;
+	display: flex;
 }
 .submit:hover
 {
 	font-size: 1.5em;
 	background: #ff833f;
-	height: 2em;
+	height: 1.5em;
 }
+#submit
+{
+	width: 100%;
+	text-decoration: none;
+	color: #fcf6e3;
+	background: #DE6B40;
+	margin: 0;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Sniglet', cursive; 
+}
+#submit:hover
+{
+	font-size: 1em;
+	background: #ff833f;
+}
+
 
 
 @media screen and (max-width: 1315px){

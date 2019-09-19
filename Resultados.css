@@ -1,0 +1,147 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+html
+{
+	background: #fcf6e3;
+}
+
+body
+{
+    width: 90%;
+	margin: auto;
+	display: flex;
+}
+.padre
+{
+    width: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+.main-header
+{
+	background: #D94734;
+	text-align: center;
+	box-sizing: 100%;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+.header
+{
+    background: #e0662485;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+	text-align: center;
+	box-sizing: 100%;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+.formulario
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.table
+{
+    background: #edd07b;
+    width: 90%;
+    margin: auto;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+th, td 
+{ 
+    box-sizing: border-box;
+    padding: 7px 0 10px 0;
+    
+} 
+th 
+{ 
+    box-sizing: border-box;
+    background: #D98843;
+    text-transform: uppercase;  
+    font-size: 90%; 
+    border-bottom: 3px solid rgba(177, 113, 58, 0.37); 
+    border-top: 1.5px solid rgba(177, 113, 58, 0.37); 
+} 
+.vacio
+{
+    border-top-left-radius: 0.5rem;
+}
+.ultimo
+{
+    border-top-right-radius: 0.5rem;
+}
+.color
+{
+    background: rgb(247, 138, 96);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.nota-final
+{
+    margin-top: 1rem;
+    background: rgba(5, 248, 17, 0.281);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 0.3rem solid rgba(10, 233, 66, 0.342);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(42, 75, 42);
+    text-transform: uppercase;
+}
+.submit
+{
+    margin: 0.8rem auto auto auto;
+	width: 40%;
+	background: #DE6B40;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Sniglet', cursive; 
+	border:none;
+	transition: background linear 10s;
+	transition: height ease-in-out 1s;
+	cursor: pointer;
+	display: flex;
+}
+.submit:hover
+{
+	font-size: 1.5em;
+	background: #ff833f;
+}
+#submit
+{
+    width: 100%;
+    padding: 0.3rem 0 0.3rem 0;
+	text-decoration: none;
+	color: #fcf6e3;
+	background: #DE6B40;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Sniglet', cursive; 
+}
+#submit:hover
+{
+	background: #ff833f;
+}
+
+
+
