@@ -50,7 +50,7 @@ agregarEventsNotas();
 var valForm1 = function(e){
 	var i;
 	for(i=0;i<inputForm1.length;i++){
-		if(inputForm1[i].value == '' || isNaN(inputForm1[i].value) == NaN || Number(inputForm1[i].value)<0 || Number(inputForm1[i].value)>10 || inputForm1[i].value.lenght>4){
+		if(inputForm1[i].value == '' || isNaN(inputForm1[i].value) == true || Number(inputForm1[i].value)<0 || Number(inputForm1[i].value)>10 || inputForm1[i].value.lenght>4){
 			inputForm1[i].setAttribute("placeholder", "Complete el campo");
 			e.preventDefault();
 		}
@@ -63,7 +63,7 @@ var valForm1 = function(e){
 var valForm2 = function(e){
 	var i;
 	for(i=0;i<inputForm2.length;i++){
-		if(inputForm2[i].value == '' || isNaN(inputForm1[i].value) == true || Number(inputForm1[i].value)<0 || Number(inputForm1[i].value)>10 || inputForm1[i].value.lenght>4){
+		if(inputForm2[i].value == '' || isNaN(inputForm2[i].value) == true || Number(inputForm2[i].value)<0 || Number(inputForm2[i].value)>10 || inputForm2[i].value.lenght>4){
 			inputForm2[i].setAttribute("placeholder", "Complete el campo");
 			e.preventDefault();
 		}
