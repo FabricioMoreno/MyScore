@@ -90,22 +90,6 @@ th
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
-
-.nota-final
-{
-    margin-top: 1rem;
-    background: rgba(5, 248, 17, 0.281);
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    border: 0.3rem solid rgba(10, 233, 66, 0.342);
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(42, 75, 42);
-    text-transform: uppercase;
-}
 .submit
 {
     margin: 0.8rem auto auto auto;
@@ -142,6 +126,7 @@ th
 {
 	background: #ff833f;
 }
+
 
 
 

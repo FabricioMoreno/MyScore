@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Grades calculator</title>
-	<link rel="stylesheet" type="text/css" href="Calificaciones.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minium-scale=1"/>
 	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Merriweather|Oswald|Raleway|Sniglet" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
 			<h2>Instrucciones: Digite la nota respectiva en cada entrada de texto y cuando este listo presione aceptar</h2>
 		</header>
 
-		<div class="principal" id="principal" method="get">
+		<form class="principal" id="principal" method="get" action="Resultados.php">
 			<section class="formularios">
 				<div class="formulario1" id="formulario1">
 					<div class="hover_h3"><h3>1° Quimestre</h3></div>
@@ -46,10 +46,10 @@
 				</div>
 			</section>
 			<div class="enviar" id="enviar">
-				<button class="submit"><a id="submit" href="Resultados.html">Listo</a></button>
+				<button class="submit" type="submit">Listo</button>
 			</div>
-		</div>
+		</form>
 	</div>
-	<script type="text/javascript" src="Calificaciones.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
