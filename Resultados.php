@@ -50,6 +50,7 @@
                         <th class="vacio"></th>
                         <th>NOTAS</th>
                         <th>SUMA</th>
+                        <th>PROMEDIO</th>
                         <th>80%</th>
                         <th>EXAMEN</th>
                         <th>20%</th>
@@ -59,6 +60,7 @@
                         <td>P1</td>
                         <td> <?php echo $notaP1Q1?> </td>
                         <td rowspan="3"> <?php echo $sumaQ1?> </td>
+                        <td rowspan="3"> <?php echo $promedioQ1?> </td>
                         <td rowspan="3"> <?php echo $porcentaje1_Q1?> </td>
                         <td rowspan="3"> <?php echo $examenQ1?> </td>
                         <td rowspan="3"> <?php echo $porcentaje2_Q1?> </td>
@@ -81,6 +83,7 @@
                         <th class="vacio"></th>
                         <th>NOTAS</th>
                         <th>SUMA</th>
+                        <th>PROMEDIO</th>
                         <th>80%</th>
                         <th>EXAMEN</th>
                         <th>20%</th>
@@ -90,6 +93,7 @@
                         <td>P1</td>
                         <td> <?php echo $notaP1Q2?> </td>
                         <td rowspan="3"> <?php echo $sumaQ2?> </td>
+                        <td rowspan="3"> <?php echo $promedioQ2?> </td>
                         <td rowspan="3"> <?php echo $porcentaje1_Q2?> </td>
                         <td rowspan="3"> <?php echo $examenQ2?> </td>
                         <td rowspan="3"> <?php echo $porcentaje2_Q2?> </td>

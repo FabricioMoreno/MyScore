@@ -33,18 +33,23 @@ body
     text-align: center;
     border-top-right-radius: 0.3rem;
     border-top-left-radius: 0.3rem;
+    border: 0.2rem solid rgb(136, 75, 67);
+    color: rgb(247, 240, 240);
 }
 .header
 {
-    background: #e0662485;
+    background: #e2b879;
     margin-top: 1rem;
     margin-bottom: 1rem;
 	text-align: center;
-	box-sizing: 100%;
+	box-sizing: border-box;
     padding: 10px;
     text-align: center;
     border-top-right-radius: 0.3rem;
     border-top-left-radius: 0.3rem;
+    border: 0.2rem solid #c59855;
+    color: #c96935;
+
 }
 .formulario
 {
@@ -59,6 +64,7 @@ body
     margin: auto;
     border-radius: 0.5rem;
     font-size: 1.2rem;
+    border: 0.8rem solid rgba(177, 113, 58, 0.37);
 }
 
 th, td 
@@ -92,7 +98,7 @@ th
 }
 .submit
 {
-    margin: 0.8rem auto auto auto;
+    margin: 1.2rem auto auto auto;
 	width: 40%;
 	background: #DE6B40;
 	border-radius: 5px;
@@ -101,14 +107,11 @@ th
 	font-size: 20px;
 	font-family: 'Sniglet', cursive; 
 	border:none;
-	transition: background linear 10s;
-	transition: height ease-in-out 1s;
 	cursor: pointer;
 	display: flex;
 }
 .submit:hover
 {
-	font-size: 1.5em;
 	background: #ff833f;
 }
 #submit
@@ -117,7 +120,8 @@ th
     padding: 0.3rem 0 0.3rem 0;
 	text-decoration: none;
 	color: #fcf6e3;
-	background: #DE6B40;
+    background: #DE6B40;
+    transition: background linear 0.3s;
 	border-radius: 5px;
 	font-size: 20px;
 	font-family: 'Sniglet', cursive; 

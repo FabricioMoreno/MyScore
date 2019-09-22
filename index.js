@@ -23,7 +23,7 @@ var estilos = function(){
 		this.setAttribute("class", "error");
 		return false;
 	}
-	else if(numLength>5){
+	else if(numLength>4){
 		this.setAttribute("class", "error");
 		return false;
 	}
@@ -52,6 +52,7 @@ var valForm1 = function(e){
 	for(i=0;i<inputForm1.length;i++){
 		if(inputForm1[i].value == '' || isNaN(inputForm1[i].value) == true || Number(inputForm1[i].value)<0 || Number(inputForm1[i].value)>10 || inputForm1[i].value.lenght>4){
 			inputForm1[i].setAttribute("placeholder", "Complete el campo");
+			inputForm1[i].setAttribute("class", "error");
 			e.preventDefault();
 		}
 		else{
@@ -65,6 +66,7 @@ var valForm2 = function(e){
 	for(i=0;i<inputForm2.length;i++){
 		if(inputForm2[i].value == '' || isNaN(inputForm2[i].value) == true || Number(inputForm2[i].value)<0 || Number(inputForm2[i].value)>10 || inputForm2[i].value.lenght>4){
 			inputForm2[i].setAttribute("placeholder", "Complete el campo");
+			inputForm2[i].setAttribute("class", "error");
 			e.preventDefault();
 		}
 		else{

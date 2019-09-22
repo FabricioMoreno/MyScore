@@ -22,7 +22,7 @@ body
 	flex-wrap: wrap;
 	background: #edd07b;
 	border-radius: 20px;
-	margin: 30px;
+	margin: 1rem auto 0.5rem auto;
 
 }
 .header
@@ -32,7 +32,6 @@ body
 	text-align: center;
 	box-sizing: 100%;
 	padding: 10px;
-	line-height: 110px;
 	border-radius: 8px;
 }
 .title
@@ -47,7 +46,7 @@ body
 	line-height: 110px;
 	border-radius: 8px;
 	font-family: 'Lilita One', cursive;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 .header h2{
 	box-sizing: 100%;
@@ -71,11 +70,14 @@ body
 	background: #D94734;
 	border-radius: 8px;
 	color: rgb(248, 211, 143);
+	font-size: 1.1rem;
 }
+/*
 .hover_h3:hover h3
 {
 	font-size: 25px;
 }
+*/
 .formularios
 {
 	flex-grow: 1;
@@ -140,25 +142,24 @@ body
 }
 .submit
 {
+	box-sizing: border-box;
 	width: 70%;
+	padding: 0.4rem 0 0.4rem 0;
 	background: #DE6B40;
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
+	font-size: 1.3rem;
 	font-family: 'Sniglet', cursive; 
 	border:none;
-	transition: background linear 10s;
-	transition: height ease-in-out 1s;
+	transition: background linear 0.3s;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
 }
 .submit:hover
 {
-	font-size: 1.5em;
 	background: #ff833f;
-	height: 1.5em;
 }
 
 
